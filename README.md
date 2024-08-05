@@ -1,9 +1,30 @@
-e-commerce
-----------
-Développer une boutique en ligne
+Description
 
-Le but de ce projet est de créer une plateforme de site marchand «high-tech», avec le maximum de fonctionnalités. Il ne devra y être vendu que des composants informatiques. L’atout principal de votre site marchand consistera à vendre du matériel dit “compatible”. Ainsi, vos clients ne pourront plus se tromper lors de
-leurs achats et vous aurez moins de matériel retourné !
-Dans ce projet nous utiliserons la méthodologie Agile et mettrons en place un environnement de gestion
-de projet comme vous pourrez en rencontrer en entreprise : votre projet s’étalera sur 4 semaines découpées
-en 7 sprints.
+Ce projet est une application e-commerce pour la vente de bijoux, développée avec React pour le front-end et Symfony pour le back-end. L'application permet aux utilisateurs de naviguer à travers les bijoux, de les ajouter au panier, de passer des commandes et de gérer leur compte. Un compte administrateur permet également de gérer les produits et les commandes.
+Usage
+
+    Ouvrez votre navigateur et accédez à http://localhost:3000 pour l'application front-end.
+    Accédez à http://localhost:8000 pour l'API back-end.
+
+Fonctionnalités
+
+    Parcourir les bijoux par catégories
+    Ajouter des bijoux au panier
+    Passer des commandes
+    Gestion des utilisateurs (inscription, connexion, mise à jour du profil)
+    Gestion des commandes (historique des commandes)
+    Affichage d'une map afin d'afficher les magasins existant
+    Compte administrateur pour gérer les produits et les commandes
+
+Compte Administrateur
+
+L'application inclut un compte administrateur avec les fonctionnalités suivantes :
+
+    Ajouter de nouveaux bijoux
+    Mettre à jour les informations sur les bijoux existants
+    Supprimer des bijoux
+    Gérer les commandes des clients
+
+Création d'un Compte Administrateur
+
+Après avoir installé les dépendances et configuré la base de données, créez un compte administrateur en utilisant la commande suivante :
